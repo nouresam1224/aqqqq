@@ -61,7 +61,7 @@ module.exports = {
                     new ButtonBuilder()
                         .setStyle(ButtonStyle.Link)
                         .setLabel('Server Support')
-                        .setURL(`https://discord.gg/developer-tools`))
+                        .setURL(`https://discord.gg/mzaen`))
 
             message.reply({ embeds: [embed], components: [row] })
         } catch (err) {
